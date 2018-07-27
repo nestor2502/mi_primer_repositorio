@@ -1,0 +1,426 @@
+<!DOCTYPE html PUBLIC
+          "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="en">
+  <head profile="http://www.w3.org/2005/10/profile">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-71409823-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-71409823-1');
+    </script>
+    <title>Canek Peláez</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="I write code. I write prose. I do
+                                      something that is almost, but not quite,
+                                      entirely unlike math." />
+    <link rel="Canek Peláez" href="https://plus.google.com/+CanekPeláez" />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="images/blacksnake.png" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="lang plain-links">
+        <a href="index.html" hreflang="en">English</a> |
+        <a href="index-es.html" hreflang="es">Spanish</a>
+      </div>
+      <div class="heading">
+        <div class="photo">
+          <a href="images/canek.jpg"><img src="images/thumb-canek.jpg"
+                                          alt="Canek Peláez"
+                                          title="Canek Peláez" /></a>
+        </div>
+        <div class="info plain-links">
+          <h1>Dr. Canek Peláez</h1>
+          <a href="http://www.fciencias.unam.mx/directorio/33933">Career
+            Associate Professor C</a><br/>
+          <a href="http://www.matematicas.unam.mx/">Department of
+          Mathematics</a><br/>
+          <a href="http://www.fciencias.unam.mx/">Faculty of Sciences</a><br/>
+          <a href="http://www.unam.mx/">National Autonomous University of
+          Mexico</a><br/>
+          <hr/>
+          Office 031<br/>
+          +(52) 55 5622 3899 ext. 45773<br/>
+          <a href="mailto:canek@ciencias.unam.mx"><code>canek@ciencias.unam.mx</code></a>
+          <hr/>
+          <a href="files/curriculum-en.pdf">Curriculum Vitae</a>
+        </div>
+        <div class="menu plain-links">
+          <a href="#teaching">Teaching</a><br/>
+          <a href="#publications">Publications</a><br/>
+          <a href="#research">Research</a><br/>
+          <a href="#conferences">Conferences</a><br/>
+          <a href="#programming">Programming</a><br/>
+          <a href="#travels">Travels</a><br/>
+          <a href="#personal">Personal</a>
+        </div>
+        <div class="google-scholar">
+          <a href="https://scholar.google.com.mx/citations?user=yzgHWuIAAAAJ&amp;hl=en&amp;oi=ao">
+            <img src="images/google-scholar.png"
+                 height="24" width="24"
+                 alt="Google Scholar profile"
+                 title="Google Scholar profile" />
+          </a>
+        </div>
+        <div class="researchgate">
+          <a href="https://www.researchgate.net/profile/Canek_Pelaez">
+            <img src="images/researchgate.png"
+                 height="24" width="24"
+                 alt="ResearchGate profile"
+                 title="ResearchGate profile" />
+          </a>
+        </div>
+        <div class="github">
+          <a href="https://github.com/canek-pelaez">
+            <img src="images/github.png"
+                 height="24" width="24"
+                 alt="GitHub profile"
+                 title="GitHub profile" />
+          </a>
+        </div>
+        <div class="gitlab">
+          <a href="https://aztlan.fciencias.unam.mx/gitlab/canek">
+            <img src="images/gitlab.png"
+                 height="24" width="24"
+                 alt="GitLab profile"
+                 title="GitLab profile" />
+          </a>
+        </div>
+        <div class="google-plus">
+          <a href="https://plus.google.com/u/0/+CanekPel%C3%A1ez">
+            <img src="images/google-plus.png"
+                 height="24" width="24"
+                 alt="Google+ profile"
+                 title="Google+ profile" />
+          </a>
+        </div>
+      </div>
+      <div class="content">
+        <a name="teaching" />
+        <h2>Teaching</h2>
+        <p>
+          I specialize in the teaching of programming for the
+          <a href="http://www.fciencias.unam.mx/licenciatura/resumen/104">Computer
+            Sciences program</a> in the Faculty of Sciences, and I usually teach
+          <a href="http://www.fciencias.unam.mx/licenciatura/asignaturas/1556/1125">
+            Computer Sciences Introduction</a> and
+          <a href="http://www.fciencias.unam.mx/licenciatura/asignaturas/1556/1222">
+            Data Structures</a>. Lately, I have been sporadically teaching
+          <a href="http://www.fciencias.unam.mx/licenciatura/asignaturas/1556/1323">
+            Modeling and Programming</a>.
+        </p>
+        <p>
+          I have also taught
+          <a href="http://www.fciencias.unam.mx/licenciatura/asignaturas/1556/1532">Analysys
+            of Algorithms</a> and
+          <a href="http://www.fciencias.unam.mx/licenciatura/asignaturas/1556/1428">Computer
+            Architecture and Organization</a>.
+        </p>
+        <p>
+          This semester (2019-1) I will teach:
+        </p>
+        <ul>
+          <li><a href="http://www.fciencias.unam.mx/licenciatura/asignaturas/1556/1125">
+              Computer Sciences Introduction</a>,</li>
+          <li><a href="http://www.fciencias.unam.mx/licenciatura/asignaturas/1556/1323">
+              Modeling and Programming</a>, and</li>
+          <li><a href="http://www.fciencias.unam.mx/licenciatura/asignaturas/1556/784">
+              Computer Sciences Seminar B</a>: This seminar covers Combinatorial
+              Optimization Heuristics.</li>
+        </ul>
+        <p>
+          I am also involved with the
+          <a href="https://pitfc.wordpress.com/">Institutional
+          Tutoring Program</a> in the Faculty of Sciences, and I collaborate with
+          the Propedeutic Courses for first year students of the Computer
+          Science program.
+        </p>
+        <a name="publications" />
+        <h2>Publications</h2>
+        <ul>
+          <li>Canek Peláez,
+            <a href="http://www.comoves.unam.mx/numeros/indice/235">Elecciones
+            La ciencia al servicio de la democracia</a>, ¿Cómo ves?, year 20,
+            number 235, June 2018, National Autonomous University of Mexico.
+          </li>
+          <li>Canek Peláez, David Romero,
+            <a href="http://www.airoconference.it/ods2017/ODS2017%20-%20Book%20of%20Abstracts.pdf">A
+            model and an algorithm to construct Mexican district maps</a>, Book
+            of Abstracts of XLVII Annual Meeting Italian Operations Research
+            Society, September 2017, Page 141.
+          </li>          
+          <li>Canek Peláez, David Romero,
+            <a href="http://congresocedi.es/actas/downloads/CAEPIA.pdf">Advances
+              on a Combinatorial Optimization Approach for Political Districting
+              in Mexico</a>, Actas de la XVII Conferencia de la Asociación
+              Española para la Inteligencia Artificial, Aquilafuente 224,
+              September 2016, Pages 399-408.
+          </li>
+          <li>Canek Peláez,
+            <a href="http://www.shs-conferences.org/articles/shsconf/abs/2016/04/shsconf_erpa2016_01107/shsconf_erpa2016_01107.html">Unit
+              testing as a teaching tool in higher education</a>,
+            SHS Web of Conferences, Volume 26, January 2016, ERPA
+            International Congresses on Education 2015 (ERPA 2015).
+          </li>
+          <li>José Miguel Díaz-Báñez, Marco A. Heredia, Canek Peláez, J. Antoni
+            Sellarès, Jorge Urrutia, Inmaculada Ventura,
+            <a href="http://www.sciencedirect.com/science/article/pii/S0925772115000772">
+              Convex blocking and partial orders on the plane</a>,
+            Computational Geometry, Volume 51, January 2016, Pages 55–66.
+          </li>
+          <li>Canek Peláez, Adriana Ramírez-Vigueras, Carlos Seara, Jorge Urrutia,
+            <a href="http://correo.matem.unam.mx/~urrutia/online_papers/WeakSep.pdf">Weak
+              separators, vector dominance, and the dual space</a>, In XIV Spanish
+            Meeting on Computational Geometry, 2011.</li>
+          <li>Canek Peláez, Adriana Ramírez-Vigueras, Jorge Urrutia,
+            <a href="http://www.cs.umanitoba.ca/~cccg2010/electronicProceedings/paper83.pdf">Triangulations
+            with many points of even degree</a>, Proceedings of the 22nd
+            Canadian Conference on Computational Geometry–CCCG, 2010,
+            Pages 103–106.</li>
+          <li>Elisa Viso, Canek Peláez,
+            <a href="http://www.fciencias.unam.mx/publicaciones/prensas/computacion/ccj.html">Introducción
+              a las Ciencias de la Computación con Java</a>, 2012, 573 pages,
+            ISBN: 978-607-02-3345-6.</li>
+          <li>Canek Peláez, Elisa Viso,
+            <a href="http://www.fciencias.unam.mx/publicaciones/prensas/computacion/mpracticas.html">Introducción
+              a las Ciencias de la Computación: Manual de prácticas</a>, 2008,
+              214 pages, ISBN: 978-970-32-5416-3.</li>
+        </ul>
+        <a name="research" />
+        <h2>Research</h2>
+        <p>
+          I primarily work and do research in the following areas:
+        </p>
+        <ul>
+          <li>Software Engineering,</li>
+          <li>Algorithms,</li>
+          <li>Teaching Programming,</li>
+          <li>Combinatorial Optimization,</li>
+          <li>Combinatorics, and</li>
+          <li>Computational Geometry.</li>
+        </ul>
+        <p>
+          However, if it is possible to implement a computer program that solves
+          or helps to solve a problem, I probably will be interested. Specially
+          if the problem is <em>NP</em>-Complete or <em>NP</em>-Hard, and it has
+          real world applications.
+        </p>
+        <p>
+          If you have such a problem, and need a highly qualified programmer
+          that understands discrete mathematics, do not hesitate to contact me.
+        </p>
+        <p>
+          I have profiles in the following academic research social networks:
+        </p>
+        <ul>
+          <li><a href="https://scholar.google.com.mx/citations?user=yzgHWuIAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a>, and</li>
+          <li><a href="https://www.researchgate.net/profile/Canek_Pelaez">ResearchGate</a>.</li>
+        </ul>
+        <a name="conferences" />
+        <h2>Conferences</h2>
+        <p>
+          The following are some of the conferences where I have presented
+          works, or I have been coauthor of the work presented:
+        </p>
+        <ul>
+          <li><a href="https://vicongresosmio.up.edu.mx/">VI Congreso de la
+            Sociedad Mexicana de Investigación de Operaciones</a>, October 2017,
+            Guadalajara, Jalisco.</li>
+          <li><a href="http://www.airoconference.it/ods2017/">International
+              Conference on Optimization and Decision Science (ODS2017)</a>,
+              September 2017, Sorrento, Italy.</li>
+          <li><a href="http://caepia16.aepia.org/">XVII Conferencia de la
+              Asociación Española para la Inteligencia Artificial</a>, September
+            2016, Salamanca, Spain.</li>
+          <li><a href="https://somee.org.mx/congresos-anteriores.php?a=dia&amp;c=5">XXVII
+              Congreso Nacional de Estudios Electorales</a>, November 2016,
+              Guanajuato, Mexico.</li>
+          <li><a href="http://caepia16.aepia.org/maeb-16/">XI Congreso Español
+              de Metaheurísticas, Algoritmos Evolutivos y Bioinspirados (MAEB
+              2016)</a>, September 2016, Salamanca, Spain.</li>
+          <li><a href="http://xamanek.izt.uam.mx/coloquio/2016/">XXXI Coloquio
+              Víctor Neumann-Lara de Teoría de las Gráficas, Combinatoria y sus
+              Aplicaciones</a>, February-March 2016, Querétaro, Mexico.</li>
+          <li><a href="http://gilbertoydavid.eventos.cimat.mx/">Combinatoria y
+              Matemáticas Aplicadas: una celebración de los primeros 70 años de
+              Gilberto Calvillo y David Romero</a>, November 2015, Guanajuato,
+            Mexico.</li>
+          <li><a href="http://www.2015.erpacongress.com/">ERPA International
+              Congresses on Education 2015</a>, June 2015, Athens, Greece.</li>
+          <li><a href="http://www.matem.unam.mx/jorgefest/">Mexican Conference
+              on Discrete Mathematics and Computational Geometry</a>, November 2013,
+            Oaxaca, Mexico.</li>
+          <li><a href="http://xamanek.izt.uam.mx/coloquio/2012/">XXVII Coloquio
+              Víctor Neumann-Lara de Teoría de las Gráficas, Combinatoria y sus
+              Aplicaciones</a>, March 2012, Tlaxcala, Mexico.</li>
+          <li><a href="http://xamanek.izt.uam.mx/coloquio/2011/">XXVI Coloquio
+              Víctor Neumann-Lara de Teoría de las Gráficas, Combinatoria y sus
+              Aplicaciones</a>, March 2011, Hidalgo, Mexico.</li>
+          <li><a href="http://www3.uah.es/egc2011/">XIV Spanish Meeting on
+              Computational Geometry</a>, June 2011, Alcalá de Henares,
+            Spain.</li>
+          <li><a href="http://2011.cccg.ca/">Canadian Conference on
+              Computational Geometry 2011</a>, August 2011, Toronto, Canada.</li>
+          <li><a href="http://www.cs.umanitoba.ca/~cccg2010/">Canadian
+              Conference on Computational Geometry 2010</a>, August 2010,
+            Winnipeg, Canada.</li>
+          <li><a href="http://xamanek.izt.uam.mx/coloquio/2010/">XXV Coloquio
+              Víctor Neumann-Lara de Teoría de las Gráficas, Combinatoria y sus
+              Aplicaciones</a>, March 2010, Querétaro, Mexico.</li>
+          <li><a href="http://www.matem.unam.mx/fsd/strausz/cv/cveventfolder/asistenciareference.2007-11-22.3112980667">XXII
+              Coloquio Víctor Neumann-Lara de Teoría de las Gráficas, Combinatoria
+              y sus Aplicaciones</a>, March 2007, Guanajuato, Mexico.</li>
+        </ul>
+        <a name="programming" />
+        <h2>Programming</h2>
+        <p>
+          Before starting my tenure-track, and although I have never really
+          stopped teaching since 1998, most of my jobs were as professional
+          programmer.
+        </p>
+        <ul>
+          <li><a href="https://github.com/canek-pelaez">My GitHub
+          profile</a>. Some small personal Free Software projects I maintain at
+          GitHub.</li>
+          <li><a href="https://aztlan.fciencias.unam.mx/gitlab/canek">My
+          personal GitLab instance</a>. Same as above, but under my
+          control.</li>
+        </ul>
+        <a name="travels" />
+        <h2>Travels</h2>
+        <p>
+          Most of the international traveling I have done in my life has been
+          related to Academia. I usually take lots of photographs, and sometimes
+          I upload them to
+          my <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/">online
+          album</a>.
+        </p>
+        <p>
+          Here are links to albums from some of those trips:
+        </p>
+        <ul>
+          <li>2011: <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2011/10/halloween-en-california">Research
+          visit to California State University, Northridge</a>.</li>
+          <li>2011: Research visit to the Fields Institute;
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2011/08/la-vista-desde-el-departamento">part 1</a>,
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2011/09/la-vista-de-la-oficina">2</a>,
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2011/09/la-cn-tower">3</a>,
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2011/09/distillery-district">4</a>,
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2011/09/niagara">5</a>,
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2011/09/toronto-fc-vs-pumas">6</a>, and
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2011/09/el-ultimo-dia-en-fields">7</a>.</li>
+          <li>2011: <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2011/08/cccg-2011">Canadian
+              Conference on Computational Geometry 2011</a>.</li>
+          <li>2011: Research visit to TU Delft;
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2011/07/paseando-en-delft">part 1</a>,
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2011/08/el-paquete-de-barcelona">2</a>, and
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2011/08/paseando-en-delft">3</a>.</li>
+          <li>2011: Research visit to Universitat Politècnica de Catalunya;
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2011/07/los-gatos">part
+              1</a>
+            and <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2011/07/mi-cubiculo">2</a>.</li>
+          <li>2011: Research visit to Universidad de Sevilla;
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2011/07/de-alcala-a-sevilla">part
+              1</a>
+            and <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2011/07/metropol-parasol">2</a>.</li>
+          <li>2011: <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2011/06/los-60-de-ferran">XIV
+              Spanish Meeting on Computational Geometry</a>.</li>
+          <li>2011: Bled'11 - 7th Slovenian International Conference on Graph Theory;
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2011/06/bled">part
+              1</a>,
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2011/06/idrija-y-skofja-loka">2</a>,
+            and
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2011/06/el-gentil-gigante">3</a>.</li>
+          <li>2010: <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2010/08">Canadian
+              Conference on Computational Geometry 2010</a>.</li>
+          <li>2010: Research visit to Universitat Politècnica de Catalunya;
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2010/05">part
+            1</a>, <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2010/06">2</a>,
+            and <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2010/07">3</a>.</li>
+          <li>2009: <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2009/08/yucatan">Yucatán
+              Workshop</a>.</li>
+          <li>2009: <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2009/07">Research
+              visit to California State University, Northridge</a>.</li>
+          <li>2009: DocCourse in Bellaterra;
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2009/01">part
+              1</a>,
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2009/02">2</a>,
+            and
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2009/03">3</a>.</li>
+          <li>2007:
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2007/04/california">
+              Research visit to California State University, Northridge</a>.</li>
+          <li>2007:
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2007/02/coloquio-en-guanajuato">
+              XXII Coloquio Víctor Neumann-Lara de Teoría de las Gráficas,
+              Combinatoria y sus Aplicaciones</a>.</li>
+          <li>2006:
+            <a href="http://aztlan.fciencias.unam.mx/~canek/fotos/2006/12/taller-de-guanajuato">
+              Guanajuato Workshop</a>.</li>
+        </ul>
+        <a name="personal" />
+        <h2>Personal</h2>
+        <ul>
+          <li><a href="http://aztlan.fciencias.unam.mx/~canek/pensadero/">Blog</a>. It
+            has almost nothing to do with my academic life. It is written in
+            Spanish.</li>
+          <li><a href="http://aztlan.fciencias.unam.mx/~canek/pensadero/">Online
+              album</a>. It has some pretty pictures.</li>
+          <li><a href="https://plus.google.com/u/0/+CanekPeláez" rel="me">My Google+
+              profile</a>. It has even less to do with my academic life.</li>
+        </ul>
+      </div>
+      <div class="footer">
+        <div class="validation-xhtml">
+          <a href="http://validator.w3.org/check?uri=referer">
+            <img src="images/valid-xhtml10-blue.png"
+                 alt="Valid XHTML 1.0 Strict" height="31" width="88" />
+          </a>
+        </div>
+        <div class="validation-css">
+          <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                 src="images/valid-css-blue.png"
+                 alt="Valid CSS!" />
+          </a>
+        </div>
+        <div class="shields">
+          <a href="http://www.fciencias.unam.mx/">
+            <img src="images/ciencias.png"
+                 alt="Faculty of Sciences"
+                 title="Faculty of Sciences" />
+          </a>
+          <a href="http://www.unam.mx/">
+            <img src="images/unam.png"
+                 alt="National Autonomous University of Mexico"
+                 title="National Autonomous University of Mexico" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+z��w2      [[4�[[4�?Rƨ[_"   )    :https://aztlan.fciencias.unam.mx/~canek/ necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Date: Fri, 27 Jul 2018 15:05:42 GMT
+Server: Apache
+Last-Modified: Thu, 28 Jun 2018 05:24:57 GMT
+ETag: "53fc-56facf3affddf"
+Accept-Ranges: bytes
+Content-Length: 21500
+Strict-Transport-Security: max-age=15768000;includeSubdomains
+Content-Type: text/html
+ original-response-headers Date: Fri, 27 Jul 2018 15:05:42 GMT
+Server: Apache
+Last-Modified: Thu, 28 Jun 2018 05:24:57 GMT
+ETag: "53fc-56facf3affddf"
+Accept-Ranges: bytes
+Content-Length: 21500
+Strict-Transport-Security: max-age=15768000;includeSubdomains
+Keep-Alive: timeout=15, max=99
+Connection: Keep-Alive
+Content-Type: text/html
+ uncompressed-len 0 net-response-time-onstart 3 net-response-time-onstop 5 predictor::resource-count 15 predictor::https://www.googletagmanager.com/gtag/js?id=UA-71409823-1 1,1,1532703942,4096 predictor::https://aztlan.fciencias.unam.mx/~canek/style.css 1,1,1532703942,4097 predictor::https://aztlan.fciencias.unam.mx/~canek/images/thumb-canek.jpg 1,1,1532703942,4097 predictor::https://aztlan.fciencias.unam.mx/~canek/images/google-scholar.png 1,1,1532703942,4097 predictor::https://aztlan.fciencias.unam.mx/~canek/images/researchgate.png 1,1,1532703942,4097 predictor::https://aztlan.fciencias.unam.mx/~canek/images/github.png 1,1,1532703942,4097 predictor::https://aztlan.fciencias.unam.mx/~canek/images/gitlab.png 1,1,1532703942,4097 predictor::https://aztlan.fciencias.unam.mx/~canek/images/google-plus.png 1,1,1532703942,4097 predictor::https://aztlan.fciencias.unam.mx/~canek/images/valid-xhtml10-blue.png 1,1,1532703942,4097 predictor::https://aztlan.fciencias.unam.mx/~canek/images/valid-css-blue.png 1,1,1532703942,4097 predictor::https://aztlan.fciencias.unam.mx/~canek/images/ciencias.png 1,1,1532703942,4097 predictor::https://aztlan.fciencias.unam.mx/~canek/images/unam.png 1,1,1532703942,4097 predictor::https://aztlan.fciencias.unam.mx/~canek/images/prometeo.jpg 1,1,1532703942,4096 predictor::https://www.google-analytics.com/analytics.js 1,1,1532703942,4096 predictor::https://www.google-analytics.com/r/collect?v=1&_v=j68&a=157129977&t=pageview&_s=1&dl=https%3A%2F%2Faztlan.fciencias.unam.mx%2F~canek%2F&ul=es-mx&de=UTF-8&dt=Canek%20Pel%C3%A1ez&sd=24-bit&sr=1920x1080&vp=1908x942&je=0&_u=IEBAAUAB~&jid=548159656&gjid=441758050&cid=298337718.1532703942&tid=UA-71409823-1&_gid=29606316.1532703942&_r=1&gtm=u7n&z=1951799534 1,1,1532703942,4096   S�

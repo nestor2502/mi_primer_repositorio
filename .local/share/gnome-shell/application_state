@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="1961" last-seen="1532705313"/>
+    <application id="org.gnome.gedit.desktop" open-window-count="0" score="107" last-seen="1532447840"/>
+    <application id="yelp.desktop" open-window-count="0" score="21" last-seen="1532360630"/>
+    <application id="firefox.desktop" open-window-count="1" score="1017" last-seen="1532705313"/>
+    <application id="evince.desktop" open-window-count="0" score="21" last-seen="1532617892"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="41" last-seen="1532705305"/>
+    <application id="emacs.desktop" open-window-count="0" score="2109" last-seen="1532705251"/>
+  </context>
+</application-state>

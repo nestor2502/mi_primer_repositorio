@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <script src="https://cdn.ravenjs.com/3.13.1/raven.min.js"></script>
+  <script>
+    var _RAVEN_MAX_EVENTS_PER_MINUTE = 5;
+    var _raven_events_this_minute = 0;
+    setInterval(function(){ _raven_events_this_minute = 0 }, 60000);
+
+    Raven.config("https://93de9971cda44ee28b7a5280494934ce@app.getsentry.com/82355", {
+        release: "e6232fdd992572bec4ceffc521a7fa6b5adf1b2e",
+      tags: {
+        environment: 'production',
+      },
+      whitelistUrls: [
+        'www.overleaf.com',
+
+        'filepicker.io',
+        'dropbox.com',
+        'pusher.com',
+        // Mathjax CDN
+        'cdnjs.cloudflare.com/ajax/libs/libs/mathjax'
+      ],
+      ignoreErrors: [
+        'Permission denied to access property "type"',
+        "Cannot read property 'id' of null",
+        "<unlabeled event>",
+      ],
+      shouldSendCallback: function(data) {
+        return _raven_events_this_minute++ <= _RAVEN_MAX_EVENTS_PER_MINUTE;
+      },
+    }).install();
+  </script>
+
+    
+    <title>Carta de motivación/presentación. - LaTeX Template on Overleaf</title>
+<meta prefix="og: http://ogp.me/ns#" property="og:title" content="Carta de motivación/presentación. - LaTeX Template on Overleaf" />
+<meta name="twitter:title" content="Carta de motivación/presentación. - LaTeX Template on Overleaf">
+
+  <meta name="description" content="start of file `template.tex&#39;.
+Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+This work may be distributed and/or modified under the
+conditions of ..." />
+  <meta prefix="og: http://ogp.me/ns#" property="og:description" content="start of file `template.tex&#39;.
+Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+This work may be distributed and/or modified under the
+conditions of ..." />
+<meta name="twitter:description" content="start of file `template.tex&#39;.
+Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+This work may be distributed and/or modified under the
+conditions of ...">
+
+  <link rel="canonical" href="https://www.overleaf.com/latex/templates/carta-de-motivacion-slash-presentacion/bwxpnywmjksk" />
+  <meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://www.overleaf.com/latex/templates/carta-de-motivacion-slash-presentacion/bwxpnywmjksk" />
+
+  <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" />
+
+  <meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://88df6ea0630aed8027ff-0caf779119a6537399728d4d80523795.ssl.cf5.rackcdn.com/bwxpnywmjksk/page/cf4e0668e7e2a67c41f71c69bb3d9df6d5de0033.jpeg" />
+
+  <meta name="twitter:image:src" content="https://88df6ea0630aed8027ff-0caf779119a6537399728d4d80523795.ssl.cf5.rackcdn.com/bwxpnywmjksk/page/cf4e0668e7e2a67c41f71c69bb3d9df6d5de0033.jpeg">
+
+<meta property="fb:admins" content="61210733" />
+
+  <meta name="twitter:card" content="summary_large_image">
+
+<meta name="twitter:site" content="@overleaf">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="wEIcNs/nVK4KJC7SHZ+BApLMaZ1B9ozjk1eYFuiI3dcXhkOrwNZ4R15taCIumlM5PRHOUeMee9cVe3MYoFckAg==" />
+
+<link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+
+    <link rel="stylesheet" media="all" href="/assets/application-icons-be632182eaddc88f6183aa26748f75581ce833e8f8ccd93344a6a29988df1cb4.css" />
+    <link rel="stylesheet" media="all" href="/assets/application-9484adced26df2a4a4cd1e4692412f24ff20d89d7c9e24157c9f1f8ed0ed6307.css" />
+    <link rel="stylesheet" media="all" href="/assets/clean_theme-6924016563533ec1be9ec50069e4856ccb7ab0469156025cbc1dd1d25bd58a37.css" />
+      <link rel="stylesheet" media="print" href="/assets/clean_theme_print-5d58e8f45db5e16cb914a1bfec675e2537f92381a7cce7291ffaf1f1c7d6f664.css" />
+    <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic">
+    <script src="/assets/application-a5687c0745299cbf4cc2ce0abe7f1e15d2cb283b84122f9edb8a3a8a2eea3bc0.js"></script>
+<script src="/assets/home-c3cb3f79a487dcb2a1088b794ac8568bf22a103e7259eca290f2edcd957e2d51.js"></script>
+    <script type="text/javascript">
+  ga('create', "UA-29673445-2");
+    ga("set", "dimension5", "false");
+
+  (function() {
+    var gaLocation = WL.Analytics.filterLocationForGoogleAnalytics(
+      window.location);
+    if (gaLocation) ga('set', 'location', gaLocation);
+  })();
+  ga('send', 'pageview');
+</script>
+
+      <script src="/assets/clean-theme/codemirror-only-8cb6260325970f8b85469505825eb8516d4001f4fcf1bb7d37904037b9b39a34.js"></script>
+  <link rel="stylesheet" media="all" href="/assets/clean-theme/codemirror-only-9053cf92af3458d34a170b4b4f85d9d75abe3b4b90b40a17b40e242664262f84.css" />
+  <script>
+//<![CDATA[
+
+   $(document).ready(function() {
+     $("#can-view-pdf").css("display", "inline-block");
+     $("#pdf-image-link").bind('click', function(ev){
+       ev.preventDefault();
+       $(".pdf-action:visible a#main-pdf-view").click()
+     });
+   });
+   $(document).on("click", ".modal-viewer-link", function() {
+     var links = {"main":{"html":"/latex/templates/carta-de-motivacion-slash-presentacion/bwxpnywmjksk/viewer.html","pdf":"/latex/templates/carta-de-motivacion-slash-presentacion/bwxpnywmjksk.pdf"}};
+     var key = $(this).data('id').split("-")[2];
+     if ($("#iframe-viewer").attr('src') == links[key]['html']){
+       return;
+     };
+     $(".download-link-viewer-modal").attr("href", links[key]['pdf']);
+     $("#iframe-viewer").attr('src', 'about:blank');
+     $("#iframe-viewer-placeholder").show();
+     setTimeout(function() {
+       $("#iframe-viewer").attr('src', links[key]['html']);
+     }, 100);
+   });
+   $(document).on("click", ".modal-v2-link", function() {
+     var links = null;
+     var key = $(this).data('id').split("-")[2];
+     $(".v2-clone-link").attr("href", links[key]['v2']);
+     $(".v1-clone-link").attr("href", links[key]['v1']);
+   });
+   $(function() {
+     $("abbr.timeago").timeago();
+   });
+   $(function() {$('.collapse').on('shown.bs.collapse', function() {
+     $(this).parent().addClass('open');
+   }).on('hidden.bs.collapse', function() {
+     $(this).parent().removeClass('open');})
+   });
+
+//]]>
+</script>            <script>
+//<![CDATA[
+
+              $(function() {
+                newsText.setHtml("<a href=\"https://www.overleaf.com/blog/641-try-out-overleaf-v2\">Try out Overleaf v2!<\/a>");
+              });
+
+//]]>
+</script>
+    <script>
+//<![CDATA[
+
+      APP_NAME = "Overleaf";
+      APP_DOMAIN = "overleaf.com";
+      APP_URL = "https://www.overleaf.com";
+
+//]]>
+</script>  </head>
+      <body class="" >
+          <div class="navbar navbar-inverse  navbar-fixed-top navbar-main" role="navigation">
+  <a href="#start-of-content" class="skip-to-content-link">Skip to content</a>
+
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">
+        <img alt="Overleaf" src="/assets/logos/overleaf-white-410-618331cf61e2c1a0207580d1aede6c55cbfafa11d53b94ec554da7a7868e2a30.png" />
+      </a>
+    </div>
+
+
+    <div class="collapse navbar-collapse navbar-ex1-collapse" role="navigation">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown ">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">FEATURES &amp; BENEFITS <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class="">
+              <a href="/benefits">For Writing</a>
+            </li>
+            <li class="">
+              <a href="/edu">For Teaching</a>
+            </li>
+            <li class="">
+              <a href="/universities">For Universities</a>
+            </li>
+            <li class="">
+              <a href="/publishers">For Publishers</a>
+            </li>
+            <li class="">
+              <a href="/enterprises">For Enterprises</a>
+            </li>
+          </ul>
+        </li>
+        <li class="">
+          <a href="/latex/templates">TEMPLATES</a>
+        </li>
+        <li class="">
+          <a href="/plans">PRICING</a>
+        </li>
+        <li class="dropdown ">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">COMPANY <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class="">
+              <a href="/about">About us</a>
+            </li>
+            <li class="">
+              <a href="/contact">Contact us</a>
+            </li>
+            <li class="">
+              <a href="/partners">Partners</a>
+            </li>
+            <li class="">
+              <a href="/advisors">Advisors</a>
+            </li>
+            <li class="">
+              <a href="/press">Press</a>
+            </li>
+            <li class="">
+              <a href="/blog">Blog</a>
+            </li>
+            <li>
+              <a href="/jobs">Jobs</a>
+            </li>
+          </ul>
+        </li>
+        <li class="">
+          <a href="/help">HELP</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="navbar topbar-fixed-top topbar">
+  <div class="container">
+    <p class="topbar-message news" id="topbar-news" style="display:none"></p>
+    <ul class="nav navbar navbar-nav navbar-right user-nav">
+            <li id="signup-menu">
+        <a class="highlight" href="/signup">Sign Up</a>
+      </li>
+    <li id="signin-menu">
+      <a href="/users/sign_in">Sign In</a>
+    </li>
+    </ul>
+  </div>
+</div>
+<div id='navbar-print'>
+  <img alt="Overleaf" src="/assets/logos/overleaf-color-410-c94b1396219a228e575797a8914a26e432750568e66027fab250c0cb25bd2f3e.png" />
+</div>
+
+    <div class="flyover-container" >
+      <div id="flyover-loading" class="flyover flyover-info flyover-persistent flyover-animate" style="display:none;" role="alertdialog" aria-label="Loading notice" tabindex="0">
+        <div class="close-info">(click to close)</div>
+        <h5>Loading</h5>
+        <p>Please wait</p>
+      </div>
+      <div id="flyover-error" class="flyover flyover-danger" style="display:none;" role="alertdialog" aria-label="Errors" tabindex="0">
+        <div class="close-info">(click to close)</div>
+        <h5>Error</h5>
+        <p></p>
+      </div>
+      <div id="flyover-success" class="flyover flyover-success" style="display:none;" role="alertdialog" aria-label="Success" tabindex="0">
+        <div class="close-info">(click to close)</div>
+        <h5>Success</h5>
+        <p></p>
+      </div>
+      
+    </div>
+
+    <div id="start-of-content"></div>
+    <div id="gallery_item">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div id="views_and_shares">
+          <a href="#share">
+            <i class="wl-icon wl-icon-accent wl-icon-shares wl-icon-no-inherit shares-icon"></i>
+            143822 views
+          </a>
+        </div>
+        <h1 class="header-content">Carta de motivación/presentación.</h1>
+          <div class="field-title">
+            Author:
+          </div>
+          <div class="field-value">
+            <address>
+              dgarhdez
+            </address>
+          </div>
+          <div class="field-title">
+            License:
+          </div>
+          <div class="field-value">
+            Creative Commons CC BY 4.0
+            <sup><a href="/help/149" target="_blank">(?)</a></sup>
+          </div>
+        <div class="actions">
+            <div class="double-action">
+                  <a class="link-as-button" rel="nofollow" data-method="post" href="/latex/templates/bwxpnywmjksk/clone">
+                    <i class="wl-icon wl-icon-accent wl-icon-project"></i>
+                    <br />
+                    Open as Template
+</a>              <a data-toggle="modal" data-target="#modal-source" href="#" class="link-under">
+                View Source
+              </a>
+            </div>
+          <div id="can-view-pdf" class="double-action pdf-action action-right">
+            <a id="main-pdf-view" data-id="viewer-data-main" data-toggle="modal" data-target="#modal-viewer" href="#" class="link-as-button modal-viewer-link">
+              <i class="wl-icon wl-icon-accent wl-icon-pdf"></i>
+              <br />
+              View PDF
+            </a>
+            <a class="link-under" href="/latex/templates/carta-de-motivacion-slash-presentacion/bwxpnywmjksk.pdf">Download PDF</a>
+          </div>
+        </div>
+        <div class="field-title">
+          Abstract:
+        </div>
+        <div class="field-value">
+          start of file `template.tex'.
+Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+This work may be distributed and/or modified under the
+conditions of the LaTeX Project Public License version 1.3c,
+available at http://www.latex-project.org/lppl/.
+Version for spanish users, by dgarhdez
+        </div>
+          <div class="field-title">
+            Tags:
+          </div>
+          <div id="tag-container">
+            <div class="field-value tags">
+              <div>
+                  <a class="has-tooltip" data-original-title="See all items with this tag." href="/gallery/tagged/cover-letter">Cover Letter</a>
+                  <a class="has-tooltip" data-original-title="See all items with this tag." href="/gallery/tagged/formal-letter">Formal Letter</a>
+                  <a class="has-tooltip" data-original-title="See all items with this tag." href="/gallery/tagged/spanish">Spanish</a>
+              </div>
+            </div>
+          </div>
+        <div id="share-container">
+            <div id="share">
+    <!-- AddThis Button BEGIN -->
+    <div class="addthis_toolbox addthis_default_style addthis_32x32_style addthis_floating_style overbox overbox-small sharebox">
+      <a class="addthis_button_facebook" addthis:url="https://www.overleaf.com/read/bwxpnywmjksk"></a>
+      <a class="addthis_button_twitter" tw:via="overleaf" addthis:url="https://www.overleaf.com/read/bwxpnywmjksk"></a>
+      <a class="addthis_button_linkedin" addthis:url="https://www.overleaf.com/read/bwxpnywmjksk"></a>
+      <a class="addthis_button_google_plusone_share" addthis:url="https://www.overleaf.com/read/bwxpnywmjksk"></a>
+    </div>
+    <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-527a02b8529909ad" async></script>
+    <!-- AddThis Button END -->
+  </div>
+
+        </div>
+        <p class="more-articles">
+          <a href="/latex/templates">Find More Templates</a>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <a id="pdf-image-link" href="#">
+          <img class="img-responsive" alt="Carta de motivación/presentación." src="https://88df6ea0630aed8027ff-0caf779119a6537399728d4d80523795.ssl.cf5.rackcdn.com/bwxpnywmjksk/page/cf4e0668e7e2a67c41f71c69bb3d9df6d5de0033.jpeg" />
+</a>      </div>
+      
+    </div>
+    <div class="comments">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = 'writelatex';
+    var disqus_identifier = "/latex/templates/carta-de-motivacion-slash-presentacion/bwxpnywmjksk";
+    var disqus_url = "https://www.overleaf.com/latex/templates/carta-de-motivacion-slash-presentacion/bwxpnywmjksk";
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+</div>
+  </div>
+    <div id="modal-source" class="modal wl-modal modal-wide modal-tall modal-over fade" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a href="#" class="modal-close wl-icon-modal-close" data-dismiss="modal"></a>
+        <h4 class="modal-title">
+          Source Code
+          <a rel="nofollow" data-method="post" href="/latex/templates/bwxpnywmjksk/clone">(Open as template)</a>
+        </h4>
+      </div>
+      <div class="modal-body">
+        <div id="source">
+          <div class="col-xs-12">
+            <pre class="cm-s-default">
+              <code>
+%% start of file `template.tex&#39;.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+%Version for spanish users, by dgarhdez
+
+\documentclass[11pt,a4paper,roman]{moderncv}        % possible options include font size (&#39;10pt&#39;, &#39;11pt&#39; and &#39;12pt&#39;), paper size (&#39;a4paper&#39;, &#39;letterpaper&#39;, &#39;a5paper&#39;, &#39;legalpaper&#39;, &#39;executivepaper&#39; and &#39;landscape&#39;) and font family (&#39;sans&#39; and &#39;roman&#39;)
+\usepackage[spanish,es-lcroman]{babel}
+
+
+% moderncv themes
+\moderncvstyle{classic}                            % style options are &#39;casual&#39; (default), &#39;classic&#39;, &#39;oldstyle&#39; and &#39;banking&#39;
+\moderncvcolor{green}                              % color options &#39;blue&#39; (default), &#39;orange&#39;, &#39;green&#39;, &#39;red&#39;, &#39;purple&#39;, &#39;grey&#39; and &#39;black&#39;
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use &#39;\sfdefault&#39; for the default sans serif font, &#39;\rmdefault&#39; for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the &#39;classic&#39; style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Nombre}{Apellido Apellido}
+\title{Resumé title}                               % optional, remove / comment the line if not wanted
+\address{Dirección}{CP, Ciudad}{País}% optional, remove / comment the line if not wanted; the &quot;postcode city&quot; and and &quot;country&quot; arguments can be omitted or provided empty
+\phone[mobile]{000-000-000-000}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{mailmailmail@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; &#39;64pt&#39; is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and &#39;picture&#39; is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Destinatario}{Departamento, Empresa}
+\date{\today}
+\opening{Estimado Destinatario,}
+\closing{Muchas gracias por su tiempo e interés y reciba un cordial saludo.}
+\enclosure[Adjunto]{CV}          % use an optional argument to use a string other than &quot;Enclosure&quot;, or redefine \enclname
+\makelettertitle
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices ultricies sapien et vehicula. Sed ut quam mattis, dignissim augue et, volutpat libero. Nulla facilisi. Nulla facilisi. Suspendisse eu libero ac mi tincidunt ullamcorper eu id risus. Maecenas dignissim tortor ac tellus tristique, et hendrerit risus finibus. Morbi rhoncus, ex in placerat lacinia, justo tortor posuere ipsum, ac scelerisque urna lectus porttitor quam. Quisque quis neque massa. Aenean metus ante, lacinia vitae eros ut, porta ullamcorper mi. Sed varius bibendum interdum. Aenean at ligula iaculis nulla egestas tristique sit amet eget eros. Nam tincidunt tempor neque a sollicitudin. Integer risus sapien, tempor vel congue eget, mattis sed mi. Nullam condimentum imperdiet pulvinar.
+
+Nam in mi sagittis, rhoncus nisl id, elementum tortor. Pellentesque id risus laoreet mi ullamcorper gravida. Nunc eget orci vitae eros efficitur consectetur a porttitor urna. Suspendisse dapibus sapien ac nulla tincidunt fermentum. Suspendisse eleifend iaculis ex et porta. Morbi at dignissim velit. Nunc non lacus ut arcu luctus dapibus. Nulla facilisis vehicula ligula non malesuada. Sed fermentum placerat mi eu finibus. Morbi nulla velit, volutpat quis efficitur in, vestibulum sed odio. In tempus, quam quis bibendum iaculis, nulla mauris rutrum leo, pellentesque molestie est lacus ut neque. Integer luctus elementum ipsum sed molestie. Vestibulum non rutrum enim. Nulla iaculis finibus elementum. Phasellus faucibus ante et pretium semper.
+
+Morbi volutpat in ligula ut blandit. Vivamus et arcu venenatis, faucibus ante nec, suscipit dolor. Duis id molestie sapien, nec dictum ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ante sem. Ut porttitor, tortor at convallis convallis, neque mi convallis ipsum, vel ultrices enim dolor sed diam. In dictum vulputate massa id molestie. Donec sollicitudin nisi vestibulum diam varius aliquet.
+
+
+
+\vspace{0.5cm}
+
+
+\makeletterclosing
+
+\end{document}
+
+
+%% end of file `template.tex&#39;.
+
+              </code>
+            </pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div id="modal-viewer" class="modal wl-modal modal-wide modal-tall modal-over fade" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a href="#" class="modal-close wl-icon-modal-close" data-dismiss="modal"></a>
+        <h4 class="modal-title">
+          PDF
+          <a class="download-link-viewer-modal" href="">(Download)</a>
+        </h4>
+      </div>
+      <div class="modal-body">
+        <div id="iframe-viewer-placeholder" class="row">
+          <div class="col-xs-8">
+            <p>
+              The PDF is loading. This can take a few seconds.
+            </p>
+            <div class="progress wl-progress">
+              <div class="progress-bar"  role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+              </div>
+            </div>
+            <p>
+              <a class="download-link-viewer-modal" href="">download the PDF</a>
+            </p>
+          </div>
+        </div>
+        <div id="iframe-viewer-error" class="row">
+          <div class="col-xs-8">
+            <p>
+              Something went wrong...
+            </p>
+            <p>
+            <a href="/latex/templates/carta-de-motivacion-slash-presentacion/bwxpnywmjksk.pdf">Download the PDF</a>
+            </p>
+          </div>
+        </div>
+        <iframe id="iframe-viewer" frameBorder="0" width="100%" height="100%" src=""></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div id="templates_info">
+  <div class="container">
+    <div class="row overbox overbox-small">
+      <div class="col-sm-4">
+        <h4>Start with our Templates</h4>
+        <p>
+        Overleaf is perfect for all types of projects &mdash; from papers and presentations to newsletters, CVs and much more! It's also a great way to learn how to use LaTeX and produce professional looking projects quickly.
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <h4>Make your Own</h4>
+        <p>
+        Upload or create templates for journals you submit to and theses and presentation templates for your institution. Just <a rel="nofollow" data-method="post" href="/docs?template=paper">create it as a project</a> on Overleaf and use the publish menu. It's free! No sign-up required.
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <h4>Follow us for More</h4>
+        <p>
+        New template are added all the time. Follow us on <a href="https://twitter.com/overleaf">twitter</a> for the highlights!
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="start container">
+    <p class="medium">
+      Overleaf is a free online collaborative LaTeX editor. No sign up required.<br/><a href="/">Learn more</a>
+    </p>
+  </div>
+</div>
+
+<div id='search-container' class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h4>Search for more Templates, Articles and Examples</h4>
+      <div class="addsearch-search search__container overbox overbox-small clearfix">
+  <div class="search__input-bar">
+    <label class="sr-only" for="search">Search</label>
+    <input type="text" id="search" class="addsearch search__input" placeholder="Search&hellip;" />
+    <button class="search__submit">Search</button>
+  </div>
+  <div id="addsearch-results"></div>
+</div>
+<script src="https://addsearch.com/js/?key=3e591d3ff7edf29b36f67099a4db35f0&type=resultpage"></script>
+
+    </div>
+  </div>
+</div>
+
+
+      <footer id="footer" class="">
+  <div class="container">
+    <div class="row sections">
+      <div class="col-sm-4 recent_posts">
+        <h3 class="footer_header">
+          Latest News
+        </h3>
+            <div class="post">
+              <div class="date"><time datetime="2018-06-29">June 29, 2018</time></div>
+              <a class="title" href="/blog/651-june-2018-new-institutional-partnerships">June 2018—New Institutional Partnerships</a>
+            </div>
+            <div class="post">
+              <div class="date"><time datetime="2018-06-26">June 26, 2018</time></div>
+              <a class="title" href="/blog/650-running-an-overleaf-workshop-the-experience-of-rodrigo-smazaro-during-academic-week-at-federal-university-of-vicosa-brazil">Running an Overleaf Workshop:  The experience of Rodrigo Smarzaro during Academic Week at Federal University of Viçosa, Brazil</a>
+            </div>
+      </div>
+      <div class="col-sm-8 links-cols">
+        <div class="col-sm-4 info">
+          <h3 class="footer_header">
+            Overleaf
+          </h3>
+          <ul>
+            <li><a href="/tutorial">Getting Started</a></li>
+            <li><a href="/templates">Templates &amp; Gallery</a></li>
+            <li><a href="/mobile">iPad &amp; Tablet</a></li>
+            <li><a href="/plans">Plans &amp; Pricing</a></li>
+            <li><a href="/space">Referrals</a></li>
+            <li><a href="/teams">Teams</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4 info">
+          <h3 class="footer_header">
+            Support
+          </h3>
+          <ul>
+            <li><a href="/help">Help &amp; FAQs</a></li>
+            <li><a href="/legal">Privacy &amp; Terms</a></li>
+            <li><a href="/legal#Cookies">Cookie Policy</a></li>
+            <li><a href="/legal#Security">Security Overview</a></li>
+            <li><a href="/devs">Developers</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4 info">
+          <h3 class="footer_header">
+            Company
+          </h3>
+          <ul>
+            <li><a href="/about">About us</a></li>
+            <li><a class="contact-link" href="/contact">Contact us</a></li>
+            <li><a href="/partners">Partners</a></li>
+            <li><a href="/advisors">Advisors</a></li>
+            <li><a href="/press">Press</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/jobs">Jobs</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="row credits">
+      <div class="col-md-12">
+        <div class="row social">
+          <div class="col-md-12 social-icons">
+            <a class="resp-sharing-button__link" href="https://www.facebook.com/overleaf.editor" target="_blank">
+              <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small">
+  <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+      <g>
+        <path d="M18.768,7.465H14.5V5.56c0-0.896,0.594-1.105,1.012-1.105s2.988,0,2.988,0V0.513L14.171,0.5C10.244,0.5,9.5,3.438,9.5,5.32 v2.145h-3v4h3c0,5.212,0,12,0,12h5c0,0,0-6.85,0-12h3.851L18.768,7.465z"/>
+      </g>
+    </svg>
+  </div>
+</div>
+
+            </a>
+            <a class="resp-sharing-button__link" href="https://twitter.com/overleaf" target="_blank">
+              <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
+  <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+      <g>
+        <path d="M23.444,4.834c-0.814,0.363-1.5,0.375-2.228,0.016c0.938-0.562,0.981-0.957,1.32-2.019c-0.878,0.521-1.851,0.9-2.886,1.104 C18.823,3.053,17.642,2.5,16.335,2.5c-2.51,0-4.544,2.036-4.544,4.544c0,0.356,0.04,0.703,0.117,1.036 C8.132,7.891,4.783,6.082,2.542,3.332C2.151,4.003,1.927,4.784,1.927,5.617c0,1.577,0.803,2.967,2.021,3.782 C3.203,9.375,2.503,9.171,1.891,8.831C1.89,8.85,1.89,8.868,1.89,8.888c0,2.202,1.566,4.038,3.646,4.456 c-0.666,0.181-1.368,0.209-2.053,0.079c0.579,1.804,2.257,3.118,4.245,3.155C5.783,18.102,3.372,18.737,1,18.459 C3.012,19.748,5.399,20.5,7.966,20.5c8.358,0,12.928-6.924,12.928-12.929c0-0.198-0.003-0.393-0.012-0.588 C21.769,6.343,22.835,5.746,23.444,4.834z"/>
+      </g>
+    </svg>
+  </div>
+</div>
+
+            </a>
+            <a class="resp-sharing-button__link" href="https://plus.google.com/+WritelatexOnline" target="_blank">
+              <div class="resp-sharing-button resp-sharing-button--google resp-sharing-button--small">
+  <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+      <g>
+        <path d="M11.366,12.928c-0.729-0.516-1.393-1.273-1.404-1.505c0-0.425,0.038-0.627,0.988-1.368 c1.229-0.962,1.906-2.228,1.906-3.564c0-1.212-0.37-2.289-1.001-3.044h0.488c0.102,0,0.2-0.033,0.282-0.091l1.364-0.989 c0.169-0.121,0.24-0.338,0.176-0.536C14.102,1.635,13.918,1.5,13.709,1.5H7.608c-0.667,0-1.345,0.118-2.011,0.347 c-2.225,0.766-3.778,2.66-3.778,4.605c0,2.755,2.134,4.845,4.987,4.91c-0.056,0.22-0.084,0.434-0.084,0.645 c0,0.425,0.108,0.827,0.33,1.216c-0.026,0-0.051,0-0.079,0c-2.72,0-5.175,1.334-6.107,3.32C0.623,17.06,0.5,17.582,0.5,18.098 c0,0.501,0.129,0.984,0.382,1.438c0.585,1.046,1.843,1.861,3.544,2.289c0.877,0.223,1.82,0.335,2.8,0.335 c0.88,0,1.718-0.114,2.494-0.338c2.419-0.702,3.981-2.482,3.981-4.538C13.701,15.312,13.068,14.132,11.366,12.928z M3.66,17.443 c0-1.435,1.823-2.693,3.899-2.693h0.057c0.451,0.005,0.892,0.072,1.309,0.2c0.142,0.098,0.28,0.192,0.412,0.282 c0.962,0.656,1.597,1.088,1.774,1.783c0.041,0.175,0.063,0.35,0.063,0.519c0,1.787-1.333,2.693-3.961,2.693 C5.221,20.225,3.66,19.002,3.66,17.443z M5.551,3.89c0.324-0.371,0.75-0.566,1.227-0.566l0.055,0 c1.349,0.041,2.639,1.543,2.876,3.349c0.133,1.013-0.092,1.964-0.601,2.544C8.782,9.589,8.363,9.783,7.866,9.783H7.865H7.844 c-1.321-0.04-2.639-1.6-2.875-3.405C4.836,5.37,5.049,4.462,5.551,3.89z"/>
+        <polygon points="23.5,9.5 20.5,9.5 20.5,6.5 18.5,6.5 18.5,9.5 15.5,9.5 15.5,11.5 18.5,11.5 18.5,14.5 20.5,14.5 20.5,11.5  23.5,11.5 	"/>
+      </g>
+    </svg>
+  </div>
+</div>
+
+            </a>
+            <a class="resp-sharing-button__link" href="https://www.linkedin.com/company/writelatex-limited" target="_blank">
+              <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small">
+  <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+      <g>
+        <path d="M6.527,21.5h-5v-13h5V21.5z M4.018,6.5H3.988C2.478,6.5,1.5,5.318,1.5,4.019c0-1.329,1.008-2.412,2.547-2.412 c1.541,0,2.488,1.118,2.519,2.447C6.565,5.354,5.588,6.5,4.018,6.5z M15.527,12.5c-1.105,0-2,0.896-2,2v7h-5c0,0,0.059-12,0-13h5 v1.485c0,0,1.548-1.443,3.938-1.443c2.962,0,5.062,2.144,5.062,6.304V21.5h-5v-7C17.527,13.396,16.632,12.5,15.527,12.5z"/>
+      </g>
+    </svg>
+  </div>
+</div>
+
+            </a>
+          </div>
+        </div>
+        <div class="row copyright">
+          <div class="col-md-12">
+          <div class="address">Writelatex Limited, 3rd Floor, 207 Regent Street, London, W1B 3HH, UK</div>
+            <div>Copyright © 2018. All rights reserved.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+          <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML,Safe"></script>
+
+
+  </body>
+</html>
+F[9u��      [Wq
+[Wq?Q�       ]    :https://www.overleaf.com/latex/templates/carta-de-motivacion-slash-presentacion/bwxpnywmjksk necko:classified 1 strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAQAAgAAAAAAAAAAAAAAAAAAAAAB4vFIJp5wRkeyPxAQ9RJGKPqbqVvKO0mKuIl8ec8o/uhmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAVKMIIFRjCCBC6gAwIBAgIJAP+PA8bi2TKpMA0GCSqGSIb3DQEBCwUAMIG0MQswCQYDVQQGEwJVUzEQMA4GA1UECBMHQXJpem9uYTETMBEGA1UEBxMKU2NvdHRzZGFsZTEaMBgGA1UEChMRR29EYWRkeS5jb20sIEluYy4xLTArBgNVBAsTJGh0dHA6Ly9jZXJ0cy5nb2RhZGR5LmNvbS9yZXBvc2l0b3J5LzEzMDEGA1UEAxMqR28gRGFkZHkgU2VjdXJlIENlcnRpZmljYXRlIEF1dGhvcml0eSAtIEcyMB4XDTE3MDgwOTE1MTAwMFoXDTE5MDgwOTE1MTAwMFowVDELMAkGA1UEBhMCR0IxDzANBgNVBAcTBkxvbmRvbjEbMBkGA1UEChMSV3JpdGVsYXRleCBMaW1pdGVkMRcwFQYDVQQDDA4qLm92ZXJsZWFmLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANKdzfVkEfMz+aCnZ/1SeMUMB0qMKxgN9KsLiWTURLVZyCMDu9BpBkACkzrM9xK9jDd7GH/R5uoTPjGZ2+NDeMg+Wqm3jyLpw0T45SXuIGSvCApnq9SIX77du66J40Bvxp74ctxd7uvFYwAyOmbONBpV26H0xvX1TlyCRam7FsL03A2gRrRiTUAGs5Lo+y1EDEYsdp3OANmYy1TRKQRTujlH6qaJZ9G7Os2ChU3nG1f4dVrJ2Jzglpa10m5XyTPsO6FndLOTpPFc4fs5p0tE/j3+a+EUttDoAOwCRl+JjD2gKeOQazWMVgHrRrS7Klw6Mqn3jFIc90Y95YqWHj/eIfsCAwEAAaOCAbgwggG0MAwGA1UdEwEB/wQCMAAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMA4GA1UdDwEB/wQEAwIFoDA1BgNVHR8ELjAsMCqgKKAmhiRodHRwOi8vY3JsLmdvZGFkZHkuY29tL2dkaWcyczItNi5jcmwwXQYDVR0gBFYwVDBIBgtghkgBhv1tAQcXAjA5MDcGCCsGAQUFBwIBFitodHRwOi8vY2VydGlmaWNhdGVzLmdvZGFkZHkuY29tL3JlcG9zaXRvcnkvMAgGBmeBDAECAjB2BggrBgEFBQcBAQRqMGgwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmdvZGFkZHkuY29tLzBABggrBgEFBQcwAoY0aHR0cDovL2NlcnRpZmljYXRlcy5nb2RhZGR5LmNvbS9yZXBvc2l0b3J5L2dkaWcyLmNydDAfBgNVHSMEGDAWgBRAwr0njsw0gzCiM9f7bLPwtCyAzjAnBgNVHREEIDAegg4qLm92ZXJsZWFmLmNvbYIMb3ZlcmxlYWYuY29tMB0GA1UdDgQWBBT571whyAxa9FnbyHqBBuCNVt5YhTANBgkqhkiG9w0BAQsFAAOCAQEAkktj4WY5aIq1EOMTB37xoVxyu89tM3GRvpQi8dLpRp2CLVHc9TVRblXp+8yqfNAoeJc81iFyuAnznnxAM0JqAnmo+p7z1v+zhwYAp69/Nz2zVBLSh0TynIXr6/uHX5I3ENp5d2WZWgP0i9/lDuXIOT9GtpBzq+3zxHfHZZi3IfLsCkIgLQoqpxr8PLHwA+GHPXZj9CForl6YD2h7H+sPIlic203XlR2sD1oRUa6TgTxT3F/uF6fwP4MSgguQdYeM2CGDp9rbI0cBFXzmu3JJook9Nt8XIDKIyKGbD4T07NZkZaEJpbtiw/yDBxUIwERE/Fnh5fYC68iiEdHdR3HEIsAvAwMAAAAAAQEAAAAAAAAEUDI1NgAAABBSU0EtUEtDUzEtU0hBNTEyAZWfsWVlF0h/q5vYkTvlMZeudM2lzS9HP5b18Lf/9ixoAAAAA2YKMiaRXE/7uyCJhaYy3wW9w5eaVCJM1YWJaWtuluqDAAAAAAAABUowggVGMIIELqADAgECAgkA/48DxuLZMqkwDQYJKoZIhvcNAQELBQAwgbQxCzAJBgNVBAYTAlVTMRAwDgYDVQQIEwdBcml6b25hMRMwEQYDVQQHEwpTY290dHNkYWxlMRowGAYDVQQKExFHb0RhZGR5LmNvbSwgSW5jLjEtMCsGA1UECxMkaHR0cDovL2NlcnRzLmdvZGFkZHkuY29tL3JlcG9zaXRvcnkvMTMwMQYDVQQDEypHbyBEYWRkeSBTZWN1cmUgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IC0gRzIwHhcNMTcwODA5MTUxMDAwWhcNMTkwODA5MTUxMDAwWjBUMQswCQYDVQQGEwJHQjEPMA0GA1UEBxMGTG9uZG9uMRswGQYDVQQKExJXcml0ZWxhdGV4IExpbWl0ZWQxFzAVBgNVBAMMDioub3ZlcmxlYWYuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0p3N9WQR8zP5oKdn/VJ4xQwHSowrGA30qwuJZNREtVnIIwO70GkGQAKTOsz3Er2MN3sYf9Hm6hM+MZnb40N4yD5aqbePIunDRPjlJe4gZK8ICmer1Ihfvt27ronjQG/Gnvhy3F3u68VjADI6Zs40GlXbofTG9fVOXIJFqbsWwvTcDaBGtGJNQAazkuj7LUQMRix2nc4A2ZjLVNEpBFO6OUfqpoln0bs6zYKFTecbV/h1WsnYnOCWlrXSblfJM+w7oWd0s5Ok8Vzh+zmnS0T+Pf5r4RS20OgA7AJGX4mMPaAp45BrNYxWAetGtLsqXDoyqfeMUhz3Rj3lipYeP94h+wIDAQABo4IBuDCCAbQwDAYDVR0TAQH/BAIwADAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDgYDVR0PAQH/BAQDAgWgMDUGA1UdHwQuMCwwKqAooCaGJGh0dHA6Ly9jcmwuZ29kYWRkeS5jb20vZ2RpZzJzMi02LmNybDBdBgNVHSAEVjBUMEgGC2CGSAGG/W0BBxcCMDkwNwYIKwYBBQUHAgEWK2h0dHA6Ly9jZXJ0aWZpY2F0ZXMuZ29kYWRkeS5jb20vcmVwb3NpdG9yeS8wCAYGZ4EMAQICMHYGCCsGAQUFBwEBBGowaDAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZ29kYWRkeS5jb20vMEAGCCsGAQUFBzAChjRodHRwOi8vY2VydGlmaWNhdGVzLmdvZGFkZHkuY29tL3JlcG9zaXRvcnkvZ2RpZzIuY3J0MB8GA1UdIwQYMBaAFEDCvSeOzDSDMKIz1/tss/C0LIDOMCcGA1UdEQQgMB6CDioub3ZlcmxlYWYuY29tggxvdmVybGVhZi5jb20wHQYDVR0OBBYEFPnvXCHIDFr0WdvIeoEG4I1W3liFMA0GCSqGSIb3DQEBCwUAA4IBAQCSS2PhZjloirUQ4xMHfvGhXHK7z20zcZG+lCLx0ulGnYItUdz1NVFuVen7zKp80Ch4lzzWIXK4CfOefEAzQmoCeaj6nvPW/7OHBgCnr383PbNUEtKHRPKchevr+4dfkjcQ2nl3ZZlaA/SL3+UO5cg5P0a2kHOr7fPEd8dlmLch8uwKQiAtCiqnGvw8sfAD4Yc9dmP0IWiuXpgPaHsf6w8iWJzbTdeVHawPWhFRrpOBPFPcX+4Xp/A/gxKCC5B1h4zYIYOn2tsjRwEVfOa7ckmiiT023xcgMojIoZsPhPTs1mRloQmlu2LD/IMHFQjARET8WeHl9gLryKIR0d1HccQiZgoyJpFcT/u7IImFpjLfBb3Dl5pUIkzVhYlpa26W6oMAAAAAAAAE1DCCBNAwggO4oAMCAQICAQcwDQYJKoZIhvcNAQELBQAwgYMxCzAJBgNVBAYTAlVTMRAwDgYDVQQIEwdBcml6b25hMRMwEQYDVQQHEwpTY290dHNkYWxlMRowGAYDVQQKExFHb0RhZGR5LmNvbSwgSW5jLjExMC8GA1UEAxMoR28gRGFkZHkgUm9vdCBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkgLSBHMjAeFw0xMTA1MDMwNzAwMDBaFw0zMTA1MDMwNzAwMDBaMIG0MQswCQYDVQQGEwJVUzEQMA4GA1UECBMHQXJpem9uYTETMBEGA1UEBxMKU2NvdHRzZGFsZTEaMBgGA1UEChMRR29EYWRkeS5jb20sIEluYy4xLTArBgNVBAsTJGh0dHA6Ly9jZXJ0cy5nb2RhZGR5LmNvbS9yZXBvc2l0b3J5LzEzMDEGA1UEAxMqR28gRGFkZHkgU2VjdXJlIENlcnRpZmljYXRlIEF1dGhvcml0eSAtIEcyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAueDLENSvdr3Uk2LrMGS4gQhswwTZYheOL/8+Zc+PzmLmPFIc2hZFS1WreGtjg2KQzg9pbJnIGhSLTMxFM+qI3J6jryv+gGGdeVfEzy70PzA8XUf8mha8wzeWQVGOEUtU+Ci+0Iy+8DA4HvOwJvhmR2Nt3nEmR484R1PRRh2049wA6kWsvbxx2apvANvbzTA6eU9fTEf4He9bwsSdYDuxskOR2KQzTuqz1idPrSWKpcb01dCmrnQFZFeItURV1C0qOj74uL3pMgoClGTEFjpQ8Uqu53kzrwwgB3/o3wQ5wmkCbGNS+nfBG8h0h8i5kxhQVDVLaU68O9NJLh/cwdJS+wIDAQABo4IBGjCCARYwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYwHQYDVR0OBBYEFEDCvSeOzDSDMKIz1/tss/C0LIDOMB8GA1UdIwQYMBaAFDqahQcQZyi27/a9BUFuIMGU2g/eMDQGCCsGAQUFBwEBBCgwJjAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZ29kYWRkeS5jb20vMDUGA1UdHwQuMCwwKqAooCaGJGh0dHA6Ly9jcmwuZ29kYWRkeS5jb20vZ2Ryb290LWcyLmNybDBGBgNVHSAEPzA9MDsGBFUdIAAwMzAxBggrBgEFBQcCARYlaHR0cHM6Ly9jZXJ0cy5nb2RhZGR5LmNvbS9yZXBvc2l0b3J5LzANBgkqhkiG9w0BAQsFAAOCAQEACH5skxDIOLiWqZBL/6FfTwTvbD6ciAbJUI+mc/dXMRu+vOQv2/i601vgtOfmeWIODKLXamNzMbX1qEikOwgtol2Q17R8JU8RVjDEtkSdeyyd5V7m7wxhqr/kKhvuhJ64g33BQ85EpxNwDZEf9MgTrYNg2dhyqHMkHrWsIg7KF4liWEQbq4klAQAPzcQbYttRtNMPUSqb9Lxz/HbONqTN2dgs6q6b9SqykNFNdRiKP4pBkCN9W0v+pANYm0ayw2Bgg/h9UEHOwqGQw7vvAi/SFVTuRBXZCq6nijPtsS12NibcBOuf92EfFdyHb+5GliitoSZ9CgmnLgSjjbz4vAQwAWYKMiaRXE/7uyCJhaYy3wW9w5eaVCJM1YWJaWtuluqDAAAAAAAAA8kwggPFMIICraADAgECAgEAMA0GCSqGSIb3DQEBCwUAMIGDMQswCQYDVQQGEwJVUzEQMA4GA1UECBMHQXJpem9uYTETMBEGA1UEBxMKU2NvdHRzZGFsZTEaMBgGA1UEChMRR29EYWRkeS5jb20sIEluYy4xMTAvBgNVBAMTKEdvIERhZGR5IFJvb3QgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IC0gRzIwHhcNMDkwOTAxMDAwMDAwWhcNMzcxMjMxMjM1OTU5WjCBgzELMAkGA1UEBhMCVVMxEDAOBgNVBAgTB0FyaXpvbmExEzARBgNVBAcTClNjb3R0c2RhbGUxGjAYBgNVBAoTEUdvRGFkZHkuY29tLCBJbmMuMTEwLwYDVQQDEyhHbyBEYWRkeSBSb290IENlcnRpZmljYXRlIEF1dGhvcml0eSAtIEcyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv3FiCPH6WTT3G8kYo/eASVjpIoMTpsUgQwE7hPHmhUmfJ+r2hBtOoLTbcJjHMgGxBT4HTu70+k8vWTAi56sZVmvigAf88xZ1gDlRe+X5NbZ0TqmNghPktj+pA4P6or6KFWp/3gvDthkUBcrqw6gElDtGfDIN8wBmIsiNaW02jBEYt9OyHGC0OPoCjM7T3UYH3go+6118yHz7sCtTpJJiaVElBWEaRIGMLKlDliPfrDqBmg4pxRyp6V0etp6eMAo5zvGIgPtLXcwy7IViQyU0AlYnAZG0O3AqP26x6JyIAX2f1PnbU21gnb8s51iruF9G/M7EGwM8CetJMVxpRrPgRwIDAQABo0IwQDAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQUOpqFBxBnKLbv9r0FQW4gwZTaD94wDQYJKoZIhvcNAQELBQADggEBAJnbXXnV+ZdZZwNh8X47BjF1LaEgjk9lh7T3ppy82Okv0Nta7s90jHO0OELaBXv4AnW4/aWx1672194Ty1MQfopG0Zf6ty4rEauQsCeA+eifWuk3n6vk32yzhRedPdkkT3mRNdZfBOuAg6uaAi21EPTYkMcEc0DtciWgqZ/snqtoEplXxo8SOgmkvUT9BhU3wZvkMqPtOOjYZPMsfhT8Auqfzf8HaBfbIpA4LXqN0VTxaeNfM8p6PXsK48p/Xznl4nW6xXYYM84s8C9Mrfex585PqMSbSlQGxX991QgP4hz+fhe4rF721BayQwkMTfana7SZhGXKeoji4kS+XPfqHPUAAA== request-method GET response-head HTTP/1.1 200 OK
+Server: Cowboy
+Date: Tue, 24 Jul 2018 18:33:01 GMT
+Status: 200 OK
+Strict-Transport-Security: max-age=631152000; includeSubdomains
+Content-Type: text/html; charset=utf-8
+Content-Length: 34677
+Etag: W/"28f3610b1c40cfa6e31062ccba582295"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: fcafc961-ed01-4170-a3b0-be9b0933f692
+X-Runtime: 0.056832
+Referrer-Policy: origin-when-cross-origin
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 1; mode=block
+Via: 1.1 vegur
+ original-response-headers Server: Cowboy
+Connection: keep-alive
+Date: Tue, 24 Jul 2018 18:33:01 GMT
+Status: 200 OK
+Strict-Transport-Security: max-age=631152000; includeSubdomains
+Content-Type: text/html; charset=utf-8
+Content-Length: 34677
+Etag: W/"28f3610b1c40cfa6e31062ccba582295"
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: _write_latex_session=OXZYVHlkS1B1dFB4NGx1QUx4dVoycUZLRU1LVlM4ai8rTlp2MC83eHd6cXVtWnIra0YycEFBTnRQS28vcWJFRkNVbmlvbkQzQlN1OTdld1NHTGpHeWxjb2x1QkhPWExEODl4OFJDelJDeUZBRjN2dnQvZFJOU3dzRGNlUmJmYU83OEVqa1ZGaUdJZjFSM1NoSUpMeHNlRVJTVEpoaHFka2ZXSFlOUmRrU05RUnZHcG01bVJienBBcEJOL1hKWjN0LS02b3AzZlVuLy9XVHViWkdFdmtXbDRRPT0%3D--ade0b391ab35589d138bd8d50fa66f3fd5ad7473; path=/; HttpOnly; secure
+X-Request-Id: fcafc961-ed01-4170-a3b0-be9b0933f692
+X-Runtime: 0.056832
+Referrer-Policy: origin-when-cross-origin
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 1; mode=block
+Via: 1.1 vegur
+ uncompressed-len 0 predictor::resource-count 41 predictor::https://cdn.ravenjs.com/3.13.1/raven.min.js 1,2,1532457226,12288 predictor::https://www.overleaf.com/assets/application-icons-be632182eaddc88f6183aa26748f75581ce833e8f8ccd93344a6a29988df1cb4.css 1,2,1532457226,12288 predictor::https://www.overleaf.com/assets/application-9484adced26df2a4a4cd1e4692412f24ff20d89d7c9e24157c9f1f8ed0ed6307.css 1,2,1532457226,12288 predictor::https://www.overleaf.com/assets/clean_theme-6924016563533ec1be9ec50069e4856ccb7ab0469156025cbc1dd1d25bd58a37.css 1,2,1532457226,12288 predictor::https://www.overleaf.com/assets/clean_theme_print-5d58e8f45db5e16cb914a1bfec675e2537f92381a7cce7291ffaf1f1c7d6f664.css 1,2,1532457226,12288 predictor::https://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic 1,2,1532457226,12288 predictor::https://www.overleaf.com/assets/application-a5687c0745299cbf4cc2ce0abe7f1e15d2cb283b84122f9edb8a3a8a2eea3bc0.js 1,2,1532457226,12288 predictor::https://www.overleaf.com/assets/home-c3cb3f79a487dcb2a1088b794ac8568bf22a103e7259eca290f2edcd957e2d51.js 1,2,1532457226,12288 predictor::https://www.overleaf.com/assets/clean-theme/codemirror-only-8cb6260325970f8b85469505825eb8516d4001f4fcf1bb7d37904037b9b39a34.js 1,2,1532457226,12288 predictor::https://www.overleaf.com/assets/clean-theme/codemirror-only-9053cf92af3458d34a170b4b4f85d9d75abe3b4b90b40a17b40e242664262f84.css 1,2,1532457226,12288 predictor::https://www.overleaf.com/assets/logos/overleaf-white-410-618331cf61e2c1a0207580d1aede6c55cbfafa11d53b94ec554da7a7868e2a30.png 1,1,1532457181,8193 predictor::https://www.overleaf.com/assets/logos/overleaf-color-410-c94b1396219a228e575797a8914a26e432750568e66027fab250c0cb25bd2f3e.png 1,1,1532457181,8193 predictor::https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-527a02b8529909ad 1,2,1532457226,12288 predictor::https://88df6ea0630aed8027ff-0caf779119a6537399728d4d80523795.ssl.cf5.rackcdn.com/bwxpnywmjksk/page/cf4e0668e7e2a67c41f71c69bb3d9df6d5de0033.jpeg 1,1,1532457181,8192 net-response-time-onstart 684 net-response-time-onstop 744 predictor::https://addsearch.com/js/?key=3e591d3ff7edf29b36f67099a4db35f0&type=resultpage 1,2,1532457226,12288 predictor::https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML,Safe 1,2,1532457226,12288 predictor::https://www.google-analytics.com/analytics.js 1,2,1532457226,12288 predictor::https://writelatex.disqus.com/embed.js 1,2,1532457226,12288 predictor::https://addsearch.com/searchui/rp/?key=3e591d3ff7edf29b36f67099a4db35f0&i=https://www.google.com/ 1,2,1532457226,12288 predictor::https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXg.woff2 1,1,1532457181,8192 predictor::https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPGQ.woff2 1,1,1532457181,8192 predictor::https://www.overleaf.com/assets/wl-icons_d269e250ee6fb47a6d823ebfc534da56-4d0d2fb6c4bf258bbd7403c62b136cb9480d00f87c1f367f796575c23a78feaa.woff 1,1,1532457181,8192 predictor::https://fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHjxsAXC-q.woff2 1,1,1532457181,8192 predictor::https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwiPGQ.woff2 1,1,1532457181,8192 predictor::https://fonts.gstatic.com/s/lato/v14/S6u_w4BMUTPHjxsI9w2_Gwft.woff2 1,1,1532457181,8192 predictor::https://app.addsearch.com/www/script/rp/1.css?r=0.5766720681215216 1,1,1532457181,8192 predictor::https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/config/TeX-AMS_HTML.js?V=2.7.0 1,2,1532457226,12288 predictor::https://referrer.disqus.com/juggler/stat.gif?event=lounge.loading.view 1,2,1532457226,12288 predictor::https://c.disquscdn.com/next/embed/assets/img/loader-bg.173909e4737a7481df14d5492b5eeb48.png 1,1,1532457181,8192 predictor::https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/config/Safe.js?V=2.7.0 1,2,1532457226,12288 predictor::https://cdn.mathjax.org/mathjax/contrib/a11y/accessibility-menu.js?V=2.7.0 1,2,1532457226,12288 predictor::https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/extensions/Safe.js?V=2.7.0 1,2,1532457226,12288 predictor::https://m.addthisedge.com/live/boost/ra-527a02b8529909ad/_ate.track.config_resp 1,2,1532457226,12288 predictor::https://m.addthis.com/live/red_lojson/300lo.json?si=5b5770e12032c9f4&bkl=0&bl=5&pdt=748&sid=5b5770e12032c9f4&pub=ra-527a02b8529909ad&rev=v8.3.26-wp&ln=en&pc=men&cb=0&ab=-&dp=www.overleaf.com&dr=www.google.com&fp=latex%2Ftemplates%2Fcarta-de-motivacion-slash-presentacion%2Fbwxpnywmjksk&fr=&fcu=W1dw4RyZJhE&of=0&pd=0&irt=0&vcl=0&md=0&ct=1&tct=0&abt=1&cdn=0&pi=1&rb=4&gen=100&chr=UTF-8&colc=1532457185620&jsl=1&uvs=5b5770e1bb7fde25000&skipb=1&callback=addthis.cbs.oln9_112950986581353610 1,1,1532457181,8192 predictor::https://s7.addthis.com/static/layers.b01bacf303e2cf5c81a0.js 1,2,1532457226,12288 predictor::https://s7.addthis.com/static/floating-css.8ff433b3b9b2130750ad.js 1,2,1532457226,12288 predictor::https://s7.addthis.com/static/132.43c7365b6d0b57a8b41f.js 1,2,1532457226,12288 predictor::https://www.overleaf.com/assets/resources/accentgrid-transparent-plus-ce80db965b707efd34c2c3c97f9c958e9d9953ca50aeddeeea4f4e53800f024e.png 1,1,1532457181,8192 predictor::https://app.addsearch.com/www/script/rp/1.css?r=0.47609821587567647 1,2,1532457226,4096 predictor::https://www.google-analytics.com/collect?v=1&_v=j68&a=249124378&t=pageview&_s=1&dl=https%3A%2F%2Fwww.overleaf.com%2Flatex%2Ftemplates%2Fcarta-de-motivacion-slash-presentacion%2Fbwxpnywmjksk&dr=https%3A%2F%2Fwww.google.com%2F&ul=es-mx&de=UTF-8&dt=Carta%20de%20motivaci%C3%B3n%2Fpresentaci%C3%B3n.%20-%20LaTeX%20Template%20on%20Overleaf&sd=24-bit&sr=1920x1080&vp=1908x942&je=0&_u=QACAAAAB~&jid=&gjid=&cid=371327738.1532457185&tid=UA-29673445-2&_gid=2073081541.1532457185&cd5=false&z=1271891155 1,1,1532457226,4096 predictor::https://m.addthis.com/live/red_lojson/300lo.json?si=5b57710a0af77488&bkl=0&bl=5&pdt=20&sid=5b57710a0af77488&pub=ra-527a02b8529909ad&rev=v8.3.26-wp&ln=en&pc=men&cb=0&ab=-&dp=www.overleaf.com&dr=www.google.com&fp=latex%2Ftemplates%2Fcarta-de-motivacion-slash-presentacion%2Fbwxpnywmjksk&fr=&fcu=W1dxChyZJhF&of=0&pd=0&irt=1&vcl=1&md=0&ct=1&tct=0&abt=1&cdn=0&pi=1&rb=4&gen=100&chr=UTF-8&colc=1532457226704&jsl=1&uvs=5b5770e1bb7fde25001&skipb=1&callback=addthis.cbs.oln9_28609604543102940 1,1,1532457226,4096   �u
